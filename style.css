@@ -18,16 +18,16 @@ html,body{
     position: relative;
 }
 #header{
-    left: 2.4%;
+    left: .1%;
     /* top: -20px; */
-    width: 94.8%;
-    top: 3%;
+    width: 99.5%;
+    /* top: -1%; */
     position: fixed;
     height: 7%;
     padding: 3px;
     margin-top: -1%;
-    border-radius: 30px;
-    background-color: #c48958;
+    border-radius: 10px;
+    background-color: #000;
     z-index: 10;
     transition: all ease-in 1s;
 }
@@ -65,28 +65,28 @@ html,body{
     color:#fff
 }
 #header a:hover{
-    scale:1.2;
-    color:#000;
+    scale:.9;
 }
 
 #sign:hover{
     scale:.9;
-    color:#000;
 
 }
 .background-video-container {
-    
     position:relative;
     width: 100%;
     height: 100vh;
     margin-top: 20px;
     overflow:hidden;
+    border-radius: 30px;
 }
 
 #background-video {
+    margin-top: 5px;
     position:absolute;
     top: 0;
     left: 0;
+    border-radius: 30px;
     width: 100%;
     height:100%;
     z-index: -1;
@@ -97,6 +97,7 @@ html,body{
     padding: 100px;
     border-radius: 10px;
     padding: 20px 20px;
+     margin-top: 10vmax;
 }
 
 .f_container_button,#readmore ,.background-video-container header button{
@@ -137,7 +138,7 @@ html,body{
 }
 #Second_container{
     margin:.1px 31px;
-    margin-top: -40px;
+    margin-top:     10px;
 }
 #Second_container .inner_div2{
     display: flex;
